@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    background-color: #0074B6;
+    width: 670px;
+    height: 737px;
+    justify-content: center;
+    
+}
+input {
+    width: 580px;
+    height: 115px;
+    text-align: center;
+    margin-top: 25px;
+}
+button {
+    width: 80px;
+    height: 80px;
+    background-color: #E5E5E5;
+    border: none;
+    align-content: space-around;
+    padding: 5px;
+}
