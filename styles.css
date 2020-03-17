@@ -1,22 +1,35 @@
 .main {
     display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.calculator {
+    display: flex;
     background-color: #0074B6;
     width: 670px;
     height: 737px;
-    justify-content: center;
+    border-radius: 45px;
+    flex-direction: column;
+    align-items: center;
     
 }
 input {
     width: 580px;
     height: 115px;
-    text-align: center;
-    margin-top: 25px;
+    margin-top: 41px;
+    font-size: 90px;
 }
+
 button {
     width: 80px;
     height: 80px;
     background-color: #E5E5E5;
     border: none;
-    align-content: space-around;
-    padding: 5px;
+}
+
+.panel {
+    flex-flow: column wrap;
+    margin-top: 50px;
+    
 }
