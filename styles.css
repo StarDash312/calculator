@@ -14,22 +14,27 @@
     align-items: center;
     
 }
-input {
+.conclusion {
     width: 580px;
     height: 115px;
     margin-top: 41px;
     font-size: 90px;
+    background-color: white;
+    margin-bottom: 0px;
+    border-radius: 10px;
 }
 
-button {
+.but, .equally, .clear {
     width: 80px;
     height: 80px;
     background-color: #E5E5E5;
     border: none;
+    border-radius: 0px;
+    margin: 10px;
 }
 
 .panel {
     flex-flow: column wrap;
     margin-top: 50px;
-    
+    width: 584px;
 }
